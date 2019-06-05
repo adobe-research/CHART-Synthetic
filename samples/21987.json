@@ -1,0 +1,1240 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 696,
+                        "x0": 559,
+                        "y0": 19
+                    },
+                    "id": 0,
+                    "text": "Women who own a house jointly (% of women age 15-49): Q2 t"
+                },
+                {
+                    "bb": {
+                        "height": 40,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 442
+                    },
+                    "id": 1,
+                    "text": "Year"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 661,
+                        "y0": 924
+                    },
+                    "id": 2,
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 11,
+                        "width": 18,
+                        "x0": 108,
+                        "y0": 892
+                    },
+                    "id": 3,
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 11,
+                        "width": 18,
+                        "x0": 282,
+                        "y0": 892
+                    },
+                    "id": 4,
+                    "text": "5"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 456,
+                        "y0": 892
+                    },
+                    "id": 5,
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 630,
+                        "y0": 892
+                    },
+                    "id": 6,
+                    "text": "15"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 804,
+                        "y0": 892
+                    },
+                    "id": 7,
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 977,
+                        "y0": 892
+                    },
+                    "id": 8,
+                    "text": "25"
+                },
+                {
+                    "bb": {
+                        "height": 21,
+                        "width": 19,
+                        "x0": 1151,
+                        "y0": 892
+                    },
+                    "id": 9,
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 47,
+                        "y0": 754
+                    },
+                    "id": 10,
+                    "text": "1982.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 47,
+                        "y0": 455
+                    },
+                    "id": 11,
+                    "text": "1995.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 60,
+                        "x0": 47,
+                        "y0": 156
+                    },
+                    "id": 12,
+                    "text": "1984.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 1100,
+                        "y0": 66
+                    },
+                    "id": 13,
+                    "text": "PHL"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 1210,
+                        "y0": 66
+                    },
+                    "id": 14,
+                    "text": "NGA"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 696,
+                            "x0": 559,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Women who own a house jointly (% of women age 15-49): Q2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 442
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 661,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 18,
+                            "x0": 108,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 18,
+                            "x0": 282,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 456,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 630,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "15"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 804,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 977,
+                            "y0": 892
+                        },
+                        "id": 8,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 1151,
+                            "y0": 892
+                        },
+                        "id": 9,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 754
+                        },
+                        "id": 10,
+                        "text": "1982.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 455
+                        },
+                        "id": 11,
+                        "text": "1995.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 156
+                        },
+                        "id": 12,
+                        "text": "1984.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 1100,
+                            "y0": 66
+                        },
+                        "id": 13,
+                        "text": "PHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 1210,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "NGA"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 14,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 696,
+                            "x0": 559,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Women who own a house jointly (% of women age 15-49): Q2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 442
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 661,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 18,
+                            "x0": 108,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 18,
+                            "x0": 282,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 456,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 630,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "15"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 804,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 977,
+                            "y0": 892
+                        },
+                        "id": 8,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 1151,
+                            "y0": 892
+                        },
+                        "id": 9,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 754
+                        },
+                        "id": 10,
+                        "text": "1982.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 455
+                        },
+                        "id": 11,
+                        "text": "1995.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 156
+                        },
+                        "id": 12,
+                        "text": "1984.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 1100,
+                            "y0": 66
+                        },
+                        "id": 13,
+                        "text": "PHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 1210,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "NGA"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 829,
+                "width": 1135,
+                "x0": 123,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 123,
+                            "y": 760
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 123,
+                            "y": 461
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 123,
+                            "y": 162
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 126,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 299,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 473,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 647,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 821,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 995,
+                            "y": 872
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 1169,
+                            "y": 872
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 696,
+                            "x0": 559,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Women who own a house jointly (% of women age 15-49): Q2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 442
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 661,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 18,
+                            "x0": 108,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 18,
+                            "x0": 282,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 456,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 630,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "15"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 804,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 977,
+                            "y0": 892
+                        },
+                        "id": 8,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 1151,
+                            "y0": 892
+                        },
+                        "id": 9,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 754
+                        },
+                        "id": 10,
+                        "text": "1982.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 455
+                        },
+                        "id": 11,
+                        "text": "1995.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 156
+                        },
+                        "id": 12,
+                        "text": "1984.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 1100,
+                            "y0": 66
+                        },
+                        "id": 13,
+                        "text": "PHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 1210,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "NGA"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1053,
+                        "y0": 68
+                    },
+                    "id": 13
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1163,
+                        "y0": 68
+                    },
+                    "id": 14
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 696,
+                            "x0": 559,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "Women who own a house jointly (% of women age 15-49): Q2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 40,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 442
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 661,
+                            "y0": 924
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 18,
+                            "x0": 108,
+                            "y0": 892
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 11,
+                            "width": 18,
+                            "x0": 282,
+                            "y0": 892
+                        },
+                        "id": 4,
+                        "text": "5"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 456,
+                            "y0": 892
+                        },
+                        "id": 5,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 630,
+                            "y0": 892
+                        },
+                        "id": 6,
+                        "text": "15"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 804,
+                            "y0": 892
+                        },
+                        "id": 7,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 977,
+                            "y0": 892
+                        },
+                        "id": 8,
+                        "text": "25"
+                    },
+                    {
+                        "bb": {
+                            "height": 21,
+                            "width": 19,
+                            "x0": 1151,
+                            "y0": 892
+                        },
+                        "id": 9,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 754
+                        },
+                        "id": 10,
+                        "text": "1982.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 455
+                        },
+                        "id": 11,
+                        "text": "1995.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 60,
+                            "x0": 47,
+                            "y0": 156
+                        },
+                        "id": 12,
+                        "text": "1984.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 1100,
+                            "y0": 66
+                        },
+                        "id": 13,
+                        "text": "PHL"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 1210,
+                            "y0": 66
+                        },
+                        "id": 14,
+                        "text": "NGA"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 829,
+                    "width": 1135,
+                    "x0": 123,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 123,
+                                "y": 760
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 123,
+                                "y": 461
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 123,
+                                "y": 162
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 126,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 299,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 473,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 647,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 821,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 995,
+                                "y": 872
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 1169,
+                                "y": 872
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1053,
+                            "y0": 68
+                        },
+                        "id": 13
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1163,
+                            "y0": 68
+                        },
+                        "id": 14
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "1982.0",
+                            "y": "20.4"
+                        },
+                        {
+                            "x": "1995.0",
+                            "y": "20.4"
+                        },
+                        {
+                            "x": "1984.0",
+                            "y": "20.4"
+                        }
+                    ],
+                    "name": "PHL"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "1982.0",
+                            "y": "10.5"
+                        },
+                        {
+                            "x": "1995.0",
+                            "y": "10.5"
+                        },
+                        {
+                            "x": "1984.0",
+                            "y": "10.5"
+                        }
+                    ],
+                    "name": "NGA"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 149,
+                        "width": 710,
+                        "x0": 127,
+                        "y0": 686
+                    },
+                    {
+                        "height": 149,
+                        "width": 365,
+                        "x0": 836,
+                        "y0": 686
+                    },
+                    {
+                        "height": 149,
+                        "width": 710,
+                        "x0": 127,
+                        "y0": 387
+                    },
+                    {
+                        "height": 149,
+                        "width": 365,
+                        "x0": 836,
+                        "y0": 387
+                    },
+                    {
+                        "height": 149,
+                        "width": 710,
+                        "x0": 127,
+                        "y0": 88
+                    },
+                    {
+                        "height": 149,
+                        "width": 365,
+                        "x0": 836,
+                        "y0": 88
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

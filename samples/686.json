@@ -1,0 +1,1332 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Grouped vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Grouped vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 480,
+                        "x0": 431,
+                        "y0": 19
+                    },
+                    "id": 0,
+                    "text": "School enrollment, secondary (% net) 2 t"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 651,
+                        "y0": 924
+                    },
+                    "id": 1,
+                    "text": "Year"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 412
+                    },
+                    "id": 2,
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 18,
+                        "x0": 184,
+                        "y0": 853
+                    },
+                    "id": 3,
+                    "text": "2005.0"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 18,
+                        "x0": 496,
+                        "y0": 853
+                    },
+                    "id": 4,
+                    "text": "1981.0"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 18,
+                        "x0": 809,
+                        "y0": 853
+                    },
+                    "id": 5,
+                    "text": "1966.0"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 18,
+                        "x0": 1121,
+                        "y0": 853
+                    },
+                    "id": 6,
+                    "text": "2013.0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 57,
+                        "y0": 826
+                    },
+                    "id": 7,
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 713
+                    },
+                    "id": 8,
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 600
+                    },
+                    "id": 9,
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 487
+                    },
+                    "id": 10,
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 374
+                    },
+                    "id": 11,
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 261
+                    },
+                    "id": 12,
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 47,
+                        "y0": 148
+                    },
+                    "id": 13,
+                    "text": "60"
+                },
+                {
+                    "bb": {
+                        "height": 39,
+                        "width": 140,
+                        "x0": 890,
+                        "y0": 86
+                    },
+                    "id": 14,
+                    "text": "Pacific island\nsmall states"
+                },
+                {
+                    "bb": {
+                        "height": 80,
+                        "width": 130,
+                        "x0": 1110,
+                        "y0": 66
+                    },
+                    "id": 15,
+                    "text": "Heavily\nindebted poor\ncountries\n(HIPC)"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Grouped vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 480,
+                            "x0": 431,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "School enrollment, secondary (% net) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 651,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 412
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 184,
+                            "y0": 853
+                        },
+                        "id": 3,
+                        "text": "2005.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 496,
+                            "y0": 853
+                        },
+                        "id": 4,
+                        "text": "1981.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 809,
+                            "y0": 853
+                        },
+                        "id": 5,
+                        "text": "1966.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 1121,
+                            "y0": 853
+                        },
+                        "id": 6,
+                        "text": "2013.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 826
+                        },
+                        "id": 7,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 713
+                        },
+                        "id": 8,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 600
+                        },
+                        "id": 9,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 487
+                        },
+                        "id": 10,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 374
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 261
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 148
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 140,
+                            "x0": 890,
+                            "y0": 86
+                        },
+                        "id": 14,
+                        "text": "Pacific island\nsmall states"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 130,
+                            "x0": 1110,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "Heavily\nindebted poor\ncountries\n(HIPC)"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 12,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 13,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 14,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 15,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Grouped vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 480,
+                            "x0": 431,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "School enrollment, secondary (% net) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 651,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 412
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 184,
+                            "y0": 853
+                        },
+                        "id": 3,
+                        "text": "2005.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 496,
+                            "y0": 853
+                        },
+                        "id": 4,
+                        "text": "1981.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 809,
+                            "y0": 853
+                        },
+                        "id": 5,
+                        "text": "1966.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 1121,
+                            "y0": 853
+                        },
+                        "id": 6,
+                        "text": "2013.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 826
+                        },
+                        "id": 7,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 713
+                        },
+                        "id": 8,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 600
+                        },
+                        "id": 9,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 487
+                        },
+                        "id": 10,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 374
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 261
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 148
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 140,
+                            "x0": 890,
+                            "y0": 86
+                        },
+                        "id": 14,
+                        "text": "Pacific island\nsmall states"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 130,
+                            "x0": 1110,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "Heavily\nindebted poor\ncountries\n(HIPC)"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 790,
+                "width": 1175,
+                "x0": 83,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 201,
+                            "y": 837
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 514,
+                            "y": 837
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 826,
+                            "y": 837
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 1138,
+                            "y": 837
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 832
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 719
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 606
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 493
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 380
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 267
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "tick_pt": {
+                            "x": 83,
+                            "y": 154
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Grouped vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 480,
+                            "x0": 431,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "School enrollment, secondary (% net) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 651,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 412
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 184,
+                            "y0": 853
+                        },
+                        "id": 3,
+                        "text": "2005.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 496,
+                            "y0": 853
+                        },
+                        "id": 4,
+                        "text": "1981.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 809,
+                            "y0": 853
+                        },
+                        "id": 5,
+                        "text": "1966.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 1121,
+                            "y0": 853
+                        },
+                        "id": 6,
+                        "text": "2013.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 826
+                        },
+                        "id": 7,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 713
+                        },
+                        "id": 8,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 600
+                        },
+                        "id": 9,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 487
+                        },
+                        "id": 10,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 374
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 261
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 148
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 140,
+                            "x0": 890,
+                            "y0": 86
+                        },
+                        "id": 14,
+                        "text": "Pacific island\nsmall states"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 130,
+                            "x0": 1110,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "Heavily\nindebted poor\ncountries\n(HIPC)"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 843,
+                        "y0": 101
+                    },
+                    "id": 14
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1063,
+                        "y0": 101
+                    },
+                    "id": 15
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Grouped vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 480,
+                            "x0": 431,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "School enrollment, secondary (% net) 2 t"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 651,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Year"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 412
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 184,
+                            "y0": 853
+                        },
+                        "id": 3,
+                        "text": "2005.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 496,
+                            "y0": 853
+                        },
+                        "id": 4,
+                        "text": "1981.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 809,
+                            "y0": 853
+                        },
+                        "id": 5,
+                        "text": "1966.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 1121,
+                            "y0": 853
+                        },
+                        "id": 6,
+                        "text": "2013.0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 57,
+                            "y0": 826
+                        },
+                        "id": 7,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 713
+                        },
+                        "id": 8,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 600
+                        },
+                        "id": 9,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 487
+                        },
+                        "id": 10,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 374
+                        },
+                        "id": 11,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 261
+                        },
+                        "id": 12,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 47,
+                            "y0": 148
+                        },
+                        "id": 13,
+                        "text": "60"
+                    },
+                    {
+                        "bb": {
+                            "height": 39,
+                            "width": 140,
+                            "x0": 890,
+                            "y0": 86
+                        },
+                        "id": 14,
+                        "text": "Pacific island\nsmall states"
+                    },
+                    {
+                        "bb": {
+                            "height": 80,
+                            "width": 130,
+                            "x0": 1110,
+                            "y0": 66
+                        },
+                        "id": 15,
+                        "text": "Heavily\nindebted poor\ncountries\n(HIPC)"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 14,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 15,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 790,
+                    "width": 1175,
+                    "x0": 83,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 201,
+                                "y": 837
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 514,
+                                "y": 837
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 826,
+                                "y": 837
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 1138,
+                                "y": 837
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 832
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 719
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 606
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 493
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 380
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 267
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "tick_pt": {
+                                "x": 83,
+                                "y": 154
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 843,
+                            "y0": 101
+                        },
+                        "id": 14
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1063,
+                            "y0": 101
+                        },
+                        "id": 15
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "2005.0",
+                            "y": "21.4268493652"
+                        },
+                        {
+                            "x": "1981.0",
+                            "y": "25.830890900139984"
+                        },
+                        {
+                            "x": "1966.0",
+                            "y": "27.745999805302944"
+                        },
+                        {
+                            "x": "2013.0",
+                            "y": "30.5461006165"
+                        }
+                    ],
+                    "name": "Heavily indebted poor countries (HIPC)"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "2005.0",
+                            "y": "62.6152191162"
+                        },
+                        {
+                            "x": "1981.0",
+                            "y": "64.7314863014365"
+                        },
+                        {
+                            "x": "1966.0",
+                            "y": "65.18429105164691"
+                        },
+                        {
+                            "x": "2013.0",
+                            "y": "65.8895874023"
+                        }
+                    ],
+                    "name": "Pacific island small states"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 708,
+                        "width": 62,
+                        "x0": 140,
+                        "y0": 125
+                    },
+                    {
+                        "height": 242,
+                        "width": 62,
+                        "x0": 202,
+                        "y0": 591
+                    },
+                    {
+                        "height": 732,
+                        "width": 62,
+                        "x0": 452,
+                        "y0": 101
+                    },
+                    {
+                        "height": 292,
+                        "width": 62,
+                        "x0": 515,
+                        "y0": 541
+                    },
+                    {
+                        "height": 737,
+                        "width": 62,
+                        "x0": 765,
+                        "y0": 96
+                    },
+                    {
+                        "height": 314,
+                        "width": 62,
+                        "x0": 827,
+                        "y0": 519
+                    },
+                    {
+                        "height": 745,
+                        "width": 62,
+                        "x0": 1077,
+                        "y0": 88
+                    },
+                    {
+                        "height": 346,
+                        "width": 62,
+                        "x0": 1139,
+                        "y0": 488
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

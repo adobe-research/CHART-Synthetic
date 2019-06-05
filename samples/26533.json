@@ -1,0 +1,1177 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Stacked vertical bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 19,
+                        "width": 408,
+                        "x0": 97,
+                        "y0": 19
+                    },
+                    "id": 0,
+                    "text": "School enrollment, primary (% net)"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 120,
+                        "x0": 616,
+                        "y0": 924
+                    },
+                    "id": 1,
+                    "text": "Country Name"
+                },
+                {
+                    "bb": {
+                        "height": 60,
+                        "width": 18,
+                        "x0": 18,
+                        "y0": 391
+                    },
+                    "id": 2,
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 101,
+                        "width": 29,
+                        "x0": 296,
+                        "y0": 812
+                    },
+                    "id": 3,
+                    "text": "San Marino"
+                },
+                {
+                    "bb": {
+                        "height": 81,
+                        "width": 27,
+                        "x0": 1000,
+                        "y0": 812
+                    },
+                    "id": 4,
+                    "text": "Malaysia"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 10,
+                        "x0": 67,
+                        "y0": 785
+                    },
+                    "id": 5,
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 20,
+                        "x0": 57,
+                        "y0": 659
+                    },
+                    "id": 6,
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 47,
+                        "y0": 532
+                    },
+                    "id": 7,
+                    "text": "100"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 47,
+                        "y0": 405
+                    },
+                    "id": 8,
+                    "text": "150"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 47,
+                        "y0": 279
+                    },
+                    "id": 9,
+                    "text": "200"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 30,
+                        "x0": 47,
+                        "y0": 152
+                    },
+                    "id": 10,
+                    "text": "250"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 960,
+                        "y0": 66
+                    },
+                    "id": 11,
+                    "text": "1984"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 1080,
+                        "y0": 66
+                    },
+                    "id": 12,
+                    "text": "2006"
+                },
+                {
+                    "bb": {
+                        "height": 18,
+                        "width": 40,
+                        "x0": 1200,
+                        "y0": 66
+                    },
+                    "id": 13,
+                    "text": "1980"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 408,
+                            "x0": 97,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "School enrollment, primary (% net)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 120,
+                            "x0": 616,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 391
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 29,
+                            "x0": 296,
+                            "y0": 812
+                        },
+                        "id": 3,
+                        "text": "San Marino"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 27,
+                            "x0": 1000,
+                            "y0": 812
+                        },
+                        "id": 4,
+                        "text": "Malaysia"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 67,
+                            "y0": 785
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 57,
+                            "y0": 659
+                        },
+                        "id": 6,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 532
+                        },
+                        "id": 7,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 405
+                        },
+                        "id": 8,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 279
+                        },
+                        "id": 9,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 152
+                        },
+                        "id": 10,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 11,
+                        "text": "1984"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 12,
+                        "text": "2006"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 13,
+                        "text": "1980"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 12,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 13,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 408,
+                            "x0": 97,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "School enrollment, primary (% net)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 120,
+                            "x0": 616,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 391
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 29,
+                            "x0": 296,
+                            "y0": 812
+                        },
+                        "id": 3,
+                        "text": "San Marino"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 27,
+                            "x0": 1000,
+                            "y0": 812
+                        },
+                        "id": 4,
+                        "text": "Malaysia"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 67,
+                            "y0": 785
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 57,
+                            "y0": 659
+                        },
+                        "id": 6,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 532
+                        },
+                        "id": 7,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 405
+                        },
+                        "id": 8,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 279
+                        },
+                        "id": 9,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 152
+                        },
+                        "id": 10,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 11,
+                        "text": "1984"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 12,
+                        "text": "2006"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 13,
+                        "text": "1980"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 748,
+                "width": 1165,
+                "x0": 93,
+                "y0": 47
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 324,
+                            "y": 795
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 1026,
+                            "y": 795
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 791
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 665
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 538
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 411
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 285
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 93,
+                            "y": 158
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 408,
+                            "x0": 97,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "School enrollment, primary (% net)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 120,
+                            "x0": 616,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 391
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 29,
+                            "x0": 296,
+                            "y0": 812
+                        },
+                        "id": 3,
+                        "text": "San Marino"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 27,
+                            "x0": 1000,
+                            "y0": 812
+                        },
+                        "id": 4,
+                        "text": "Malaysia"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 67,
+                            "y0": 785
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 57,
+                            "y0": 659
+                        },
+                        "id": 6,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 532
+                        },
+                        "id": 7,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 405
+                        },
+                        "id": 8,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 279
+                        },
+                        "id": 9,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 152
+                        },
+                        "id": 10,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 11,
+                        "text": "1984"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 12,
+                        "text": "2006"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 13,
+                        "text": "1980"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 913,
+                        "y0": 68
+                    },
+                    "id": 11
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1033,
+                        "y0": 68
+                    },
+                    "id": 12
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1153,
+                        "y0": 68
+                    },
+                    "id": 13
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Stacked vertical bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 19,
+                            "width": 408,
+                            "x0": 97,
+                            "y0": 19
+                        },
+                        "id": 0,
+                        "text": "School enrollment, primary (% net)"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 120,
+                            "x0": 616,
+                            "y0": 924
+                        },
+                        "id": 1,
+                        "text": "Country Name"
+                    },
+                    {
+                        "bb": {
+                            "height": 60,
+                            "width": 18,
+                            "x0": 18,
+                            "y0": 391
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 101,
+                            "width": 29,
+                            "x0": 296,
+                            "y0": 812
+                        },
+                        "id": 3,
+                        "text": "San Marino"
+                    },
+                    {
+                        "bb": {
+                            "height": 81,
+                            "width": 27,
+                            "x0": 1000,
+                            "y0": 812
+                        },
+                        "id": 4,
+                        "text": "Malaysia"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 10,
+                            "x0": 67,
+                            "y0": 785
+                        },
+                        "id": 5,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 20,
+                            "x0": 57,
+                            "y0": 659
+                        },
+                        "id": 6,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 532
+                        },
+                        "id": 7,
+                        "text": "100"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 405
+                        },
+                        "id": 8,
+                        "text": "150"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 279
+                        },
+                        "id": 9,
+                        "text": "200"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 30,
+                            "x0": 47,
+                            "y0": 152
+                        },
+                        "id": 10,
+                        "text": "250"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 960,
+                            "y0": 66
+                        },
+                        "id": 11,
+                        "text": "1984"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1080,
+                            "y0": 66
+                        },
+                        "id": 12,
+                        "text": "2006"
+                    },
+                    {
+                        "bb": {
+                            "height": 18,
+                            "width": 40,
+                            "x0": 1200,
+                            "y0": 66
+                        },
+                        "id": 13,
+                        "text": "1980"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 13,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 748,
+                    "width": 1165,
+                    "x0": 93,
+                    "y0": 47
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 324,
+                                "y": 795
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 1026,
+                                "y": 795
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 791
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 665
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 538
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 411
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 285
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 93,
+                                "y": 158
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 913,
+                            "y0": 68
+                        },
+                        "id": 11
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1033,
+                            "y0": 68
+                        },
+                        "id": 12
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1153,
+                            "y0": 68
+                        },
+                        "id": 13
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "San Marino",
+                            "y": "99.8624801636"
+                        },
+                        {
+                            "x": "Malaysia",
+                            "y": "95.5768814087"
+                        }
+                    ],
+                    "name": "2006"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "San Marino",
+                            "y": "93.81151130105344"
+                        },
+                        {
+                            "x": "Malaysia",
+                            "y": "81.87412642686245"
+                        }
+                    ],
+                    "name": "1980"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "San Marino",
+                            "y": "85.26955370986681"
+                        },
+                        {
+                            "x": "Malaysia",
+                            "y": "99.7565002441"
+                        }
+                    ],
+                    "name": "1984"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 216,
+                        "width": 351,
+                        "x0": 149,
+                        "y0": 576
+                    },
+                    {
+                        "height": 253,
+                        "width": 351,
+                        "x0": 149,
+                        "y0": 323
+                    },
+                    {
+                        "height": 237,
+                        "width": 351,
+                        "x0": 149,
+                        "y0": 86
+                    },
+                    {
+                        "height": 253,
+                        "width": 351,
+                        "x0": 851,
+                        "y0": 540
+                    },
+                    {
+                        "height": 242,
+                        "width": 351,
+                        "x0": 851,
+                        "y0": 298
+                    },
+                    {
+                        "height": 207,
+                        "width": 351,
+                        "x0": 851,
+                        "y0": 90
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}

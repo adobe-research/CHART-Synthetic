@@ -1,0 +1,34 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Donut"
+        }
+    },
+    "task2": {
+        "input": {},
+        "name": "Text Detection and Recognition",
+        "output": {}
+    },
+    "task3": {
+        "input": {},
+        "name": "Text Role Classification",
+        "output": {}
+    },
+    "task4": {
+        "input": {},
+        "name": "Axes Analysis",
+        "output": {}
+    },
+    "task5": {
+        "input": {},
+        "name": "Legend Analysis",
+        "output": {}
+    },
+    "task6": {
+        "input": {},
+        "name": "Data Extraction",
+        "output": {}
+    }
+}

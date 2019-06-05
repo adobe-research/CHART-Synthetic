@@ -1,0 +1,1076 @@
+{
+    "task1": {
+        "input": {},
+        "name": "Chart Classification",
+        "output": {
+            "chart_type": "Grouped horizontal bar"
+        }
+    },
+    "task2": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Grouped horizontal bar"
+            }
+        },
+        "name": "Text Detection and Recognition",
+        "output": {
+            "text_blocks": [
+                {
+                    "bb": {
+                        "height": 42,
+                        "width": 924,
+                        "x0": 331,
+                        "y0": 15
+                    },
+                    "id": 0,
+                    "text": "Salary expenditure as percentageage of revenue expenditure (net of IP & Pension) - states & UTs from 2007-08 to 2013-14"
+                },
+                {
+                    "bb": {
+                        "height": 202,
+                        "width": 17,
+                        "x0": 17,
+                        "y0": 369
+                    },
+                    "id": 1,
+                    "text": "State/ Union Teritorries"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 56,
+                        "x0": 681,
+                        "y0": 926
+                    },
+                    "id": 2,
+                    "text": "Values"
+                },
+                {
+                    "bb": {
+                        "height": 15,
+                        "width": 19,
+                        "x0": 144,
+                        "y0": 889
+                    },
+                    "id": 3,
+                    "text": "0"
+                },
+                {
+                    "bb": {
+                        "height": 26,
+                        "width": 23,
+                        "x0": 335,
+                        "y0": 889
+                    },
+                    "id": 4,
+                    "text": "10"
+                },
+                {
+                    "bb": {
+                        "height": 26,
+                        "width": 23,
+                        "x0": 529,
+                        "y0": 889
+                    },
+                    "id": 5,
+                    "text": "20"
+                },
+                {
+                    "bb": {
+                        "height": 26,
+                        "width": 23,
+                        "x0": 724,
+                        "y0": 889
+                    },
+                    "id": 6,
+                    "text": "30"
+                },
+                {
+                    "bb": {
+                        "height": 26,
+                        "width": 23,
+                        "x0": 918,
+                        "y0": 889
+                    },
+                    "id": 7,
+                    "text": "40"
+                },
+                {
+                    "bb": {
+                        "height": 25,
+                        "width": 23,
+                        "x0": 1113,
+                        "y0": 889
+                    },
+                    "id": 8,
+                    "text": "50"
+                },
+                {
+                    "bb": {
+                        "height": 37,
+                        "width": 81,
+                        "x0": 63,
+                        "y0": 713
+                    },
+                    "id": 9,
+                    "text": "Himachal\nPradesh"
+                },
+                {
+                    "bb": {
+                        "height": 17,
+                        "width": 98,
+                        "x0": 45,
+                        "y0": 204
+                    },
+                    "id": 10,
+                    "text": "Puducherry"
+                },
+                {
+                    "bb": {
+                        "height": 174,
+                        "width": 141,
+                        "x0": 877,
+                        "y0": 383
+                    },
+                    "id": 11,
+                    "text": "Salary\nExpenditure As\nPercentage of\nRevenue\nExpenditure(Net\nof IP and\nPension) -\n2007-08 -\nActual"
+                },
+                {
+                    "bb": {
+                        "height": 174,
+                        "width": 141,
+                        "x0": 1099,
+                        "y0": 383
+                    },
+                    "id": 12,
+                    "text": "Salary\nExpenditure As\nPercentage of\nRevenue\nExpenditure(Net\nof IP and\nPension) -\n2009-10 -\nActual"
+                }
+            ]
+        }
+    },
+    "task3": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Grouped horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 924,
+                            "x0": 331,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Salary expenditure as percentageage of revenue expenditure (net of IP & Pension) - states & UTs from 2007-08 to 2013-14"
+                    },
+                    {
+                        "bb": {
+                            "height": 202,
+                            "width": 17,
+                            "x0": 17,
+                            "y0": 369
+                        },
+                        "id": 1,
+                        "text": "State/ Union Teritorries"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 56,
+                            "x0": 681,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 19,
+                            "x0": 144,
+                            "y0": 889
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 335,
+                            "y0": 889
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 529,
+                            "y0": 889
+                        },
+                        "id": 5,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 724,
+                            "y0": 889
+                        },
+                        "id": 6,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 918,
+                            "y0": 889
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 23,
+                            "x0": 1113,
+                            "y0": 889
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 81,
+                            "x0": 63,
+                            "y0": 713
+                        },
+                        "id": 9,
+                        "text": "Himachal\nPradesh"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 98,
+                            "x0": 45,
+                            "y0": 204
+                        },
+                        "id": 10,
+                        "text": "Puducherry"
+                    },
+                    {
+                        "bb": {
+                            "height": 174,
+                            "width": 141,
+                            "x0": 877,
+                            "y0": 383
+                        },
+                        "id": 11,
+                        "text": "Salary\nExpenditure As\nPercentage of\nRevenue\nExpenditure(Net\nof IP and\nPension) -\n2007-08 -\nActual"
+                    },
+                    {
+                        "bb": {
+                            "height": 174,
+                            "width": 141,
+                            "x0": 1099,
+                            "y0": 383
+                        },
+                        "id": 12,
+                        "text": "Salary\nExpenditure As\nPercentage of\nRevenue\nExpenditure(Net\nof IP and\nPension) -\n2009-10 -\nActual"
+                    }
+                ]
+            }
+        },
+        "name": "Text Role Classification",
+        "output": {
+            "text_roles": [
+                {
+                    "id": 0,
+                    "role": "chart_title"
+                },
+                {
+                    "id": 1,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 2,
+                    "role": "axis_title"
+                },
+                {
+                    "id": 3,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 4,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 5,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 6,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 7,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 8,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 9,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 10,
+                    "role": "tick_label"
+                },
+                {
+                    "id": 11,
+                    "role": "legend_label"
+                },
+                {
+                    "id": 12,
+                    "role": "legend_label"
+                }
+            ]
+        }
+    },
+    "task4": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Grouped horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 924,
+                            "x0": 331,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Salary expenditure as percentageage of revenue expenditure (net of IP & Pension) - states & UTs from 2007-08 to 2013-14"
+                    },
+                    {
+                        "bb": {
+                            "height": 202,
+                            "width": 17,
+                            "x0": 17,
+                            "y0": 369
+                        },
+                        "id": 1,
+                        "text": "State/ Union Teritorries"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 56,
+                            "x0": 681,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 19,
+                            "x0": 144,
+                            "y0": 889
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 335,
+                            "y0": 889
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 529,
+                            "y0": 889
+                        },
+                        "id": 5,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 724,
+                            "y0": 889
+                        },
+                        "id": 6,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 918,
+                            "y0": 889
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 23,
+                            "x0": 1113,
+                            "y0": 889
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 81,
+                            "x0": 63,
+                            "y0": 713
+                        },
+                        "id": 9,
+                        "text": "Himachal\nPradesh"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 98,
+                            "x0": 45,
+                            "y0": 204
+                        },
+                        "id": 10,
+                        "text": "Puducherry"
+                    },
+                    {
+                        "bb": {
+                            "height": 174,
+                            "width": 141,
+                            "x0": 877,
+                            "y0": 383
+                        },
+                        "id": 11,
+                        "text": "Salary\nExpenditure As\nPercentage of\nRevenue\nExpenditure(Net\nof IP and\nPension) -\n2007-08 -\nActual"
+                    },
+                    {
+                        "bb": {
+                            "height": 174,
+                            "width": 141,
+                            "x0": 1099,
+                            "y0": 383
+                        },
+                        "id": 12,
+                        "text": "Salary\nExpenditure As\nPercentage of\nRevenue\nExpenditure(Net\nof IP and\nPension) -\n2009-10 -\nActual"
+                    }
+                ]
+            }
+        },
+        "name": "Axes Analysis",
+        "output": {
+            "_plot_bb": {
+                "height": 807,
+                "width": 1099,
+                "x0": 160,
+                "y0": 66
+            },
+            "axes": {
+                "x-axis": [
+                    {
+                        "id": 9,
+                        "tick_pt": {
+                            "x": 160,
+                            "y": 729
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "tick_pt": {
+                            "x": 160,
+                            "y": 209
+                        }
+                    }
+                ],
+                "y-axis": [
+                    {
+                        "id": 3,
+                        "tick_pt": {
+                            "x": 162,
+                            "y": 869
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "tick_pt": {
+                            "x": 357,
+                            "y": 869
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "tick_pt": {
+                            "x": 551,
+                            "y": 869
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "tick_pt": {
+                            "x": 746,
+                            "y": 869
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "tick_pt": {
+                            "x": 940,
+                            "y": 869
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "tick_pt": {
+                            "x": 1135,
+                            "y": 869
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "task5": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Grouped horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 924,
+                            "x0": 331,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Salary expenditure as percentageage of revenue expenditure (net of IP & Pension) - states & UTs from 2007-08 to 2013-14"
+                    },
+                    {
+                        "bb": {
+                            "height": 202,
+                            "width": 17,
+                            "x0": 17,
+                            "y0": 369
+                        },
+                        "id": 1,
+                        "text": "State/ Union Teritorries"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 56,
+                            "x0": 681,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 19,
+                            "x0": 144,
+                            "y0": 889
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 335,
+                            "y0": 889
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 529,
+                            "y0": 889
+                        },
+                        "id": 5,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 724,
+                            "y0": 889
+                        },
+                        "id": 6,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 918,
+                            "y0": 889
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 23,
+                            "x0": 1113,
+                            "y0": 889
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 81,
+                            "x0": 63,
+                            "y0": 713
+                        },
+                        "id": 9,
+                        "text": "Himachal\nPradesh"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 98,
+                            "x0": 45,
+                            "y0": 204
+                        },
+                        "id": 10,
+                        "text": "Puducherry"
+                    },
+                    {
+                        "bb": {
+                            "height": 174,
+                            "width": 141,
+                            "x0": 877,
+                            "y0": 383
+                        },
+                        "id": 11,
+                        "text": "Salary\nExpenditure As\nPercentage of\nRevenue\nExpenditure(Net\nof IP and\nPension) -\n2007-08 -\nActual"
+                    },
+                    {
+                        "bb": {
+                            "height": 174,
+                            "width": 141,
+                            "x0": 1099,
+                            "y0": 383
+                        },
+                        "id": 12,
+                        "text": "Salary\nExpenditure As\nPercentage of\nRevenue\nExpenditure(Net\nof IP and\nPension) -\n2009-10 -\nActual"
+                    }
+                ]
+            }
+        },
+        "name": "Legend Analysis",
+        "output": {
+            "legend_pairs": [
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 831,
+                        "y0": 465
+                    },
+                    "id": 11
+                },
+                {
+                    "bb": {
+                        "height": 12,
+                        "width": 33,
+                        "x0": 1052,
+                        "y0": 465
+                    },
+                    "id": 12
+                }
+            ]
+        }
+    },
+    "task6": {
+        "input": {
+            "task1_output": {
+                "chart_type": "Grouped horizontal bar"
+            },
+            "task2_output": {
+                "text_blocks": [
+                    {
+                        "bb": {
+                            "height": 42,
+                            "width": 924,
+                            "x0": 331,
+                            "y0": 15
+                        },
+                        "id": 0,
+                        "text": "Salary expenditure as percentageage of revenue expenditure (net of IP & Pension) - states & UTs from 2007-08 to 2013-14"
+                    },
+                    {
+                        "bb": {
+                            "height": 202,
+                            "width": 17,
+                            "x0": 17,
+                            "y0": 369
+                        },
+                        "id": 1,
+                        "text": "State/ Union Teritorries"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 56,
+                            "x0": 681,
+                            "y0": 926
+                        },
+                        "id": 2,
+                        "text": "Values"
+                    },
+                    {
+                        "bb": {
+                            "height": 15,
+                            "width": 19,
+                            "x0": 144,
+                            "y0": 889
+                        },
+                        "id": 3,
+                        "text": "0"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 335,
+                            "y0": 889
+                        },
+                        "id": 4,
+                        "text": "10"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 529,
+                            "y0": 889
+                        },
+                        "id": 5,
+                        "text": "20"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 724,
+                            "y0": 889
+                        },
+                        "id": 6,
+                        "text": "30"
+                    },
+                    {
+                        "bb": {
+                            "height": 26,
+                            "width": 23,
+                            "x0": 918,
+                            "y0": 889
+                        },
+                        "id": 7,
+                        "text": "40"
+                    },
+                    {
+                        "bb": {
+                            "height": 25,
+                            "width": 23,
+                            "x0": 1113,
+                            "y0": 889
+                        },
+                        "id": 8,
+                        "text": "50"
+                    },
+                    {
+                        "bb": {
+                            "height": 37,
+                            "width": 81,
+                            "x0": 63,
+                            "y0": 713
+                        },
+                        "id": 9,
+                        "text": "Himachal\nPradesh"
+                    },
+                    {
+                        "bb": {
+                            "height": 17,
+                            "width": 98,
+                            "x0": 45,
+                            "y0": 204
+                        },
+                        "id": 10,
+                        "text": "Puducherry"
+                    },
+                    {
+                        "bb": {
+                            "height": 174,
+                            "width": 141,
+                            "x0": 877,
+                            "y0": 383
+                        },
+                        "id": 11,
+                        "text": "Salary\nExpenditure As\nPercentage of\nRevenue\nExpenditure(Net\nof IP and\nPension) -\n2007-08 -\nActual"
+                    },
+                    {
+                        "bb": {
+                            "height": 174,
+                            "width": 141,
+                            "x0": 1099,
+                            "y0": 383
+                        },
+                        "id": 12,
+                        "text": "Salary\nExpenditure As\nPercentage of\nRevenue\nExpenditure(Net\nof IP and\nPension) -\n2009-10 -\nActual"
+                    }
+                ]
+            },
+            "task3_output": {
+                "text_roles": [
+                    {
+                        "id": 0,
+                        "role": "chart_title"
+                    },
+                    {
+                        "id": 1,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 2,
+                        "role": "axis_title"
+                    },
+                    {
+                        "id": 3,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 4,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 5,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 6,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 7,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 8,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 9,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 10,
+                        "role": "tick_label"
+                    },
+                    {
+                        "id": 11,
+                        "role": "legend_label"
+                    },
+                    {
+                        "id": 12,
+                        "role": "legend_label"
+                    }
+                ]
+            },
+            "task4_output": {
+                "_plot_bb": {
+                    "height": 807,
+                    "width": 1099,
+                    "x0": 160,
+                    "y0": 66
+                },
+                "axes": {
+                    "x-axis": [
+                        {
+                            "id": 9,
+                            "tick_pt": {
+                                "x": 160,
+                                "y": 729
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "tick_pt": {
+                                "x": 160,
+                                "y": 209
+                            }
+                        }
+                    ],
+                    "y-axis": [
+                        {
+                            "id": 3,
+                            "tick_pt": {
+                                "x": 162,
+                                "y": 869
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "tick_pt": {
+                                "x": 357,
+                                "y": 869
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "tick_pt": {
+                                "x": 551,
+                                "y": 869
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "tick_pt": {
+                                "x": 746,
+                                "y": 869
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "tick_pt": {
+                                "x": 940,
+                                "y": 869
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "tick_pt": {
+                                "x": 1135,
+                                "y": 869
+                            }
+                        }
+                    ]
+                }
+            },
+            "task5_output": {
+                "legend_pairs": [
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 831,
+                            "y0": 465
+                        },
+                        "id": 11
+                    },
+                    {
+                        "bb": {
+                            "height": 12,
+                            "width": 33,
+                            "x0": 1052,
+                            "y0": 465
+                        },
+                        "id": 12
+                    }
+                ]
+            }
+        },
+        "name": "Data Extraction",
+        "output": {
+            "data series": [
+                {
+                    "data": [
+                        {
+                            "x": "Himachal Pradesh",
+                            "y": "50.63"
+                        },
+                        {
+                            "x": "Puducherry",
+                            "y": "34.62"
+                        }
+                    ],
+                    "name": "Salary Expenditure As Percentage of Revenue Expenditure(Net of IP and Pension) - 2009-10 - Actual"
+                },
+                {
+                    "data": [
+                        {
+                            "x": "Himachal Pradesh",
+                            "y": "53.46"
+                        },
+                        {
+                            "x": "Puducherry",
+                            "y": "23.5"
+                        }
+                    ],
+                    "name": "Salary Expenditure As Percentage of Revenue Expenditure(Net of IP and Pension) - 2007-08 - Actual"
+                }
+            ],
+            "visual elements": {
+                "bars": [
+                    {
+                        "height": 104,
+                        "width": 1040,
+                        "x0": 163,
+                        "y0": 730
+                    },
+                    {
+                        "height": 104,
+                        "width": 985,
+                        "x0": 163,
+                        "y0": 626
+                    },
+                    {
+                        "height": 104,
+                        "width": 457,
+                        "x0": 163,
+                        "y0": 210
+                    },
+                    {
+                        "height": 104,
+                        "width": 673,
+                        "x0": 163,
+                        "y0": 106
+                    }
+                ],
+                "boxplots": [],
+                "lines": [],
+                "scatter points": []
+            }
+        }
+    }
+}
