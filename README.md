@@ -28,6 +28,7 @@ Knowing the type of chart greatly affects what processing needs to be done. Thus
 * Stacked horizontal bar
 * Line	
 * Scatter
+
 For bar charts that have a single set of bars (single data series), it is visually ambigious whether it a Grouped or Stacked bar chart, though their ground truth class indicates one of these classes. In this case we accept either prediction, as long as the orientation (vertical or horizontal) is correct. For example, a vertical bar chart with a single data series can be classified as either Grouped vertical bar or Stacked vertical bar.
 
 Note that pie and donut plots are not used for the remaining tasks.
@@ -39,6 +40,7 @@ To account for charts with multiple possible labels (i.e. single data series bar
 
 #### Input/Output
 Input: Chart Image
+
 Output: Chart Class
 
 ### Task 2 - Text Detection and Recognition
@@ -52,6 +54,7 @@ For each chart, we will compute both detection and recognition scores. Then we w
 
 #### Input/Output
 Input: Chart Image, Chart Class
+
 Output: List of (Text Block BBs, Text Transcription)
 
 ### Task 3 - Text Role Classification
@@ -68,7 +71,9 @@ Similar to the evaluation in task 1 (chart classification), the evaluation metri
 
 #### Input/Output
 Input: Chart Image, Chart Class, List of (Text Block BB, Text Transcription, Text Block Id)
+
 Output: List of (Text Block Id, Text role)
+
 The output Text Block Ids should match the input Ids.
 
 ### Task 4 - Axis Analysis
@@ -83,6 +88,7 @@ A detected tick receives a score of 1 if the predicted point is close to the cor
 
 #### Input/Output
 Input: Chart Image, Chart Class, List of (Text Block BB, Text Transcription, Text Block Id)
+
 Output: For each of X-axis and Y-axis, List of tuples (tick x position, tick y position, Text Block Id)
 
 ### Task 5 - Legend Analysis
@@ -97,6 +103,7 @@ For charts that have no legend, it is expected that participant systems return a
 
 #### Input/Output
 Input: Chart Image, Chart Class, List of (Text Block BB, Text Transcription, Text Block Id)
+
 Output: A list of (Text Block Id, Graphical Style Element BB)
 
 
@@ -130,6 +137,7 @@ For line plots, individual lines must be segmented from each other, and are scor
 
 #### Input/Output
 Input: Outputs of tasks 1-5
+
 Output: List of (Element Class, Element Representation)
 
 ### Task 6b - Raw Data Extraction
@@ -145,5 +153,10 @@ See this [PDF](metric6b.pdf) for details
 
 #### Input/Output
 Input: Outputs of tasks 1-5.
+
 Output: Set of Data Series. Data Series = (name, \[(x_1, y_1), ..., (x_n, y_n)])
+
 The output of 6a is not given as an input to 6b.
+
+## Task 7 - End-to-end Data Extraction
+Perform task 6b using only the chart image as input.
