@@ -4,6 +4,8 @@ This repo contains the Synthetic Dataset used in the ICDAR2019 Competition on HA
 
 See [here](https://chartinfo.github.io/) for the original website describing the competition.
 
+This work (code and data) is distributed with CC-BY-NC-ND 4.0 licensing terms.  See license.txt for more details.
+
 ## Tasks
 
 The goal of extracting the raw data (e.g. a CSV file) from a chart image can be broken into several tasks that can be arranged in a pipeline fashion as shown below.
