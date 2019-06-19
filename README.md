@@ -168,3 +168,8 @@ This work (code and data) is distributed with CC-BY-NC-ND 4.0 licensing terms.  
 ### Contributing
 
 While this repository is not actively developed, if there are errors in the scripts, feel free to contribute (or open issues). Read the [Contributing Guide](./.github/CONTRIBUTING.md) for more information.
+
+### Acknowledgements
+
+This competition was jointly organized with the Center for Unified Biometrics and Sensors (CUBs), University at Buffalo, SUNY.  We thank Bhargava Urala and Kenny Davila for writing some of the metric scripts and for their permission to host them as part of this repo.
+
