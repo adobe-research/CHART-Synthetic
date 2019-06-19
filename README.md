@@ -10,6 +10,7 @@ numpy
 matplotlib
 scipy
 editdistance
+cv2 (visualize_json.py)
 [unicodeit](https://github.com/svenkreiss/unicodeit/blob/master/src/unicodeit.py) (metric2.py only; just grab the file and get it on your $PYTHON_PATH)
 
 ## Tasks
