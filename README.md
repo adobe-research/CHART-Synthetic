@@ -127,7 +127,7 @@ Boxplot Bottom Wisker |	Line that is typically the min value |	Point
 Even though boxplot elements are visually line segments, we allow for any point on that line segment. Other plot elements, such as boxplot outlier points and error bars, are not evaluated and should not be contained in the output for this task. Note that the chart class is given as input to this task and that each plot element can be found in only one class of chart.
 
 #### Metric
-For an element to be correctly detected, it must be assigned to the correct class. We will use a variation on MSE to evaluate the representation of each element with the correct class. For each element, we compute a score between 0 and 1, where 1 represents an exact prediction, and predictions farther away than a distance threshold, T, receive a score of 0. The score is max(0, 1 - (D/T)^2), where D is the Euclidean distance between the predicted and GT points. The distance threshold, T, is determined to be 1% of the smallest image dimension. Because there are many ways to pair predicted and GT points, we will find the minimum cost pairing (i.e. solve this bi-partite graph matching problem).
+For an element to be correctly detected, it must be assigned to the correct class. We will use a variation on MSE to evaluate the representation of each element with the correct class. For each element, we compute a score between 0 and 1, where 1 represents an exact prediction, and predictions farther away than a distance threshold, T, receive a score of 0. The score is max(0, 1 - (D/T)), where D is the Manhattan distance between the predicted and GT points. The distance threshold, T, is determined to be 5% of the smallest image dimension. Because there are many ways to pair predicted and GT points, we will find the minimum cost pairing (i.e. solve this bi-partite graph matching problem).
 
 For Boxplot elements, we will use distance between the predicted point and the line segment. For Bar chart bars, we will use the distances between corresponding BB corners.
 
@@ -160,3 +160,11 @@ The output of 6a is not given as an input to 6b.
 
 ## Task 7 - End-to-end Data Extraction
 Perform task 6b using only the chart image as input.
+
+### Licensing
+
+This work (code and data) is distributed with CC-BY-NC-ND 4.0 licensing terms.  See [license.txt](license.txt) for more details.
+
+### Contributing
+
+While this repository is not actively developed, if there are errors in the scripts, feel free to contribute (or open issues). Read the [Contributing Guide](./.github/CONTRIBUTING.md) for more information.

@@ -27,53 +27,51 @@ def euclid(p1, p2):
 #     return out
 
 def box_arr_to_np(ds):
-    n = np.zeros( (len(ds), 8))
-    for i,p in enumerate(ds):
-        cnt_q = 0
-        for quart in p:        
-            n[i,cnt_q] = float(p[quart]['y'])
-            n[i,cnt_q+1] = float(p[quart]['x'])
-            cnt_q = cnt_q+1
+    n = np.zeros( (1, 8))
+    cnt_q = 0
+    for _i,p in enumerate(ds):
+        print(p)       
+        n[0,cnt_q] = float(ds[p]['y'])
+        n[0,cnt_q+1] = float(ds[p]['x'])
+        cnt_q = cnt_q+1
     return n
 
 def compare_box(pred_ds, gt_ds, min_dim):
     pred_ds = box_arr_to_np(pred_ds)
     gt_ds = box_arr_to_np(gt_ds)
-    cost_mat = np.minimum(1, scipy.spatial.distance.cdist(pred_ds, gt_ds, metric='cityblock') /(min_dim*0.1))
-    return get_score(cost_mat)
+    cost_mat = np.minimum(1, scipy.spatial.distance.cdist(pred_ds, gt_ds, metric='cityblock') /(min_dim*0.05))
+    return cost_mat
 
-def arr_to_np(ds):
+def scatt_arr_to_np(ds):
     n = np.zeros((len(ds), 2))
-    for i,p in enumerate(ds):
+    for i, p in enumerate(ds):
         n[i,0] = float(p['x'])
         n[i,1] = float(p['y'])
     return n
 
 def bar_arr_to_np(ds):
-    n = np.zeros( (len(ds), 4))
-    for i,p in enumerate(ds):
-        n[i,0] = float(p['y0'])
-        n[i,1] = float(p['x0'])
-        n[i,2] = float(p['height']) + float(p['y0'])
-        n[i,3] = float(p['width']) + float(p['x0'])
+    n = np.zeros([1,4])
+    n[0,0] = float(ds['y0'])
+    n[0,1] = float(ds['x0'])
+    n[0,2] = float(ds['height']) + float(ds['y0'])
+    n[0,3] = float(ds['width']) + float(ds['x0'])
     return n
 
 def compare_bar(pred_ds, gt_ds, min_dim):
     pred_ds = bar_arr_to_np(pred_ds)
     gt_ds = bar_arr_to_np(gt_ds)
 
-    cost_mat = np.minimum(1, scipy.spatial.distance.cdist(pred_ds, gt_ds, metric='cityblock') /(min_dim(min_dim*0.1)))
-    return get_score(cost_mat)
+    cost_mat = np.minimum(1, scipy.spatial.distance.cdist(pred_ds, gt_ds, metric='cityblock') /(min_dim*0.05))
+    return cost_mat
 
 def compare_scatter(pred_ds, gt_ds, gamma):
-    pred_ds = arr_to_np(pred_ds)
-    gt_ds = arr_to_np(gt_ds)
+    pred_ds = scatt_arr_to_np(pred_ds)
+    gt_ds = scatt_arr_to_np(gt_ds)
 
     V = np.cov(gt_ds.T)
     VI = np.linalg.inv(V).T
 
     cost_mat = np.minimum(1, scipy.spatial.distance.cdist(pred_ds, gt_ds, metric='mahalanobis', VI=VI) / gamma)
-    #print(cost_mat)
     return get_score(cost_mat)
 
 def get_score(cost_mat):
@@ -122,14 +120,14 @@ def compare_continuous(pred_ds, gt_ds):
 def norm_edit_dist(s1, s2):
     return editdistance.eval(s1, s2) / float(max(len(s1), len(s2), 1))
 
-def create_dist_mat(seq1, seq2, compare):
+def create_dist_mat(seq1, seq2, compare, beta):
     l1 = len(seq1)
     l2 = len(seq2)
     mat = np.full( (l1, l2), -1.)
     for i in range(l1):
         for j in range(l2):
             mat[i,j] = compare(seq1[i], seq2[j])
-    return mat
+    return get_score(1 - (mat/beta))
 
 def pad_mat(mat):
     h,w = mat.shape
@@ -148,34 +146,27 @@ def pad_mat(mat):
 def metric_6a(pred_data_series, gt_data_series, gt_type, alpha=1, beta=2, gamma=1, img_dim = [1280.0, 960.0], debug=False):
     if 'box' in gt_type.lower():
         compare = lambda ds1, ds2: compare_box(ds1, ds2, min(img_dim))
-        pred_no_names = list(map(lambda ds: ds['boxplots'], pred_data_series))
-        gt_no_names = list(map(lambda ds: ds['boxplots'], gt_data_series))
-    if 'bar' in gt_type.lower():
+        pred_no_names = pred_data_series['boxplots']
+        gt_no_names = gt_data_series['boxplots']
+        ds_match_score = create_dist_mat(pred_no_names, gt_no_names, compare, beta)
+    elif 'bar' in gt_type.lower():
         compare = lambda ds1, ds2: compare_bar(ds1, ds2, min(img_dim))
-        pred_no_names = list(map(lambda ds: ds['bars'], pred_data_series))
-        gt_no_names = list(map(lambda ds: ds['bars'], gt_data_series))
+        pred_no_names = pred_data_series['bars']
+        gt_no_names = gt_data_series['bars']
+        ds_match_score = create_dist_mat(pred_no_names, gt_no_names, compare, beta)
     elif 'scatter' in gt_type.lower():
-        compare = lambda ds1, ds2: compare_scatter(ds1, ds2, gamma)
-        pred_no_names = list(map(lambda ds: ds['scatter points'], pred_data_series))
-        gt_no_names = list(map(lambda ds: ds['scatter points'], gt_data_series))
+        pred_no_names = pred_data_series['scatter points']
+        gt_no_names = gt_data_series['scatter points']
+        ds_match_score = compare_scatter(pred_no_names, gt_no_names, gamma)
     elif 'line' in gt_type.lower():
+        pred_no_names = pred_data_series['lines']
+        gt_no_names = gt_data_series['lines']
         compare = compare_continuous
-        pred_no_names = list(map(lambda ds: ds['lines'], pred_data_series))
-        gt_no_names = list(map(lambda ds: ds['lines'], gt_data_series))
+        ds_match_score = create_dist_mat(pred_no_names, gt_no_names, compare, beta)
     else:
         raise Exception("Odd Case")
   
-    ds_match_scores = create_dist_mat(pred_no_names, gt_no_names, compare)
-    if debug:
-        print("Data Series Match Scores:")
-        print(ds_match_scores)
-
-    mat1 = 1 - (ds_match_scores / beta)
-    cost_mat = mat1
-    if debug:
-        print("\nCost Matrix:")
-        print(cost_mat)
-    return get_score(cost_mat)
+    return ds_match_score
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
@@ -236,5 +227,3 @@ if __name__ == "__main__":
     else:
         print("Error: pred_file and gt_file must both be files or both be directories")
         exit()
-
-
