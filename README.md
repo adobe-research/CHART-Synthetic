@@ -169,6 +169,8 @@ The output of 6a is not given as an input to 6b.
 ## Task 7 - End-to-end Data Extraction
 Perform task 6b using only the chart image as input.
 
+# Repo Details
+
 ### Licensing
 
 This work (code and data) is distributed with CC-BY-NC-ND 4.0 licensing terms.  See [license.txt](license.txt) for more details.
