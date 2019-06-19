@@ -1,3 +1,5 @@
+# COPYRIGHT Adobe 2019
+# Written by Sumit Shekhar and Chris Tensmeyer
 
 import os
 import sys

@@ -1,3 +1,5 @@
+# COPYRIGHT University of Buffalo 2019.  Used with permission
+# Written by Bhargava Urala
 import os
 import json
 import sys
