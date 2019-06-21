@@ -1,6 +1,8 @@
 # CHART-Synthetic
 
 This repo contains the Synthetic Dataset used in the ICDAR2019 Competition on HArvesting Raw Tables from Infographics (CHART-Infographics).  It also contains the metric scripts used to evaluate predictions.
+See the release tab to download the images and annotations.
+
 
 See [here](https://chartinfo.github.io/) for the original website describing the competition organized by Adobe Research and University of Buffalo.
 
